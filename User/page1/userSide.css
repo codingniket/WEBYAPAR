@@ -1,0 +1,234 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Ubuntu, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC',
+    'Hiragino Sans GB', 'Microsoft Yahei UI', 'Microsoft Yahei',
+    'Source Han Sans CN', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  background: #03013b;
+  overflow: hidden;
+}
+.image {
+  position: relative;
+  height: 100vh;
+  z-index: 1;
+  width: 100%;
+}
+.frame-9 {
+  position: absolute;
+  width: 596px;
+  height: 900px;
+  background: #ffffff;
+  border: 1px solid #cdcdcd;
+  right: 0;
+  overflow: hidden;
+}
+.group-a {
+  position: relative;
+  width: 464px;
+  height: 388px;
+  margin: 268px 0 0 66px;
+  font-size: 0px;
+  z-index: 16;
+  overflow: visible auto;
+}
+.admin-login {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 385px;
+  height: 53px;
+  margin: 0 0 0 39px;
+  color: #636363;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 52.5px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 17;
+}
+.email {
+  position: relative;
+  width: 462px;
+  height: 59px;
+  margin: 82px 0 0 1px;
+  font-size: 0px;
+  z-index: 21;
+  overflow: hidden;
+}
+.user-id {
+  display: block;
+  position: relative;
+  height: 21px;
+  margin: 19px 0 0 13px;
+  color: #5b5b5b;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 20.723px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 23;
+}
+.rectangle-b {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #ffffff;
+  border: 1px solid #cdcdcd;
+  z-index: 22;
+  border-radius: 5px;
+}
+.email-input {
+  position: absolute;
+  width: 462px;
+  height: 59px;
+  top: 0;
+  left: 0;
+  background: transparent;
+  border: none;
+  z-index: 24;
+  outline: none;
+}
+.password {
+  position: relative;
+  width: 463px;
+  height: 59px;
+  margin: 24px 0 0 1px;
+  z-index: 25;
+  overflow: hidden;
+}
+.rectangle-c {
+  position: absolute;
+  width: 99.78%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #ffffff;
+  border: 1px solid #cdcdcd;
+  z-index: 26;
+  border-radius: 5px;
+}
+.password-input {
+  position: absolute;
+  width: 463px;
+  height: 59px;
+  top: 0;
+  left: 0;
+  background: transparent;
+  border: none;
+  z-index: 28;
+  outline: none;
+}
+.password-d {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 35.59%;
+  top: 32.2%;
+  left: 3.02%;
+  color: #5b5b5b;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 20.723px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 27;
+}
+.group-e {
+  position: relative;
+  width: 463px;
+  height: 61px;
+  margin: 50px 0 0 0;
+  cursor: pointer;
+  font-size: 0px;
+  background: transparent;
+  border: none;
+  z-index: 18;
+  overflow: visible auto;
+  border-radius: 10px;
+}
+.login {
+  display: block;
+  position: relative;
+  height: 24px;
+  margin: 18px 0 0 209px;
+  color: #ffffff;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 20;
+}
+.rectangle-f {
+  position: absolute;
+  width: 463px;
+  height: 61px;
+  top: 0;
+  left: 0;
+  background: #0500ff;
+  z-index: 19;
+  border-radius: 10px;
+}
+.group-10 {
+  position: absolute;
+  width: 664.571px;
+  height: 664.571px;
+  top: 147.714px;
+  left: 125.715px;
+  background: url(./assets/images/483e4393-6fda-46d5-b20e-9a0e45264693.png)
+    no-repeat center;
+  background-size: cover;
+}
+.frame-11 {
+  position: relative;
+  width: 494px;
+  height: 219px;
+  margin: 224.286px 0 0 86.285px;
+  background: #ffffff;
+  z-index: 29;
+  overflow: hidden;
+}
+.logo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 72px;
+  top: 73px;
+  left: 162px;
+  color: #0500ff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 59.11837387084961px;
+  font-weight: 600;
+  line-height: 71.547px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 30;
+}
