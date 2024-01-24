@@ -1,0 +1,118 @@
+.text-editor-container {
+  width: 60%;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-info {
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.user-info input {
+  flex: 1;
+  margin-right: 10px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.format-buttons button {
+  margin-right: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 6px 10px;
+  outline: none;
+}
+
+.submit-button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+.editor {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  min-height: 150px;
+  font-size: 16px;
+  outline: none;
+  margin-top: 10px;
+}
+
+.editor:empty:before {
+  content: attr(placeholder);
+  color: #aaa;
+}
+/* TextEditor.css */
+
+.text-editor-container {
+  width: 60%;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-info {
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.user-info input {
+  flex: 1;
+  margin-right: 10px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.format-buttons button {
+  margin-right: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 6px 10px;
+  outline: none;
+}
+
+.submit-button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+.editor {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  min-height: 150px;
+  font-size: 16px;
+  outline: none;
+  margin-top: 10px;
+}
+
+.editor:empty:before {
+  content: attr(placeholder);
+  color: #aaa;
+}
